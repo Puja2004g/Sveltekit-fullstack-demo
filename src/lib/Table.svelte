@@ -19,7 +19,7 @@
 				<div class="flex items-center space-x-4">
 					<div class="flex">
 						<p class="font-medium pt-1 leading-none">{user.name}</p>
-						<p class="font-medium pl-5 text-gray-500 pt-0">{user.email}</p>                        
+						<p class="font-medium pl-5 text-gray-500 pt-0">{user.email}</p>
 					</div>
 				</div>
                 <form method="POST" action="/profiles?/delete">
