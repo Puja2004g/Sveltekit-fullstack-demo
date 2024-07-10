@@ -6,7 +6,7 @@
     class="mt-10 pt-10 w-full max-w-xl p-5 mx-auto rounded-lg shadow-xl dark:bg-white/10 bg-white/30 ring-1 ring-gray-900/5 backdrop-blur-lg"
 >
     <form method="POST" action="?/deploy">
-        <div class="-mx-3 mb-2">
+        <div class="mx-3 mb-2">
             <div class="w-full px-3 mb-6 md:mb-6">
                 <label
                     class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
