@@ -1,0 +1,10 @@
+
+contract Demo {
+  Sha256 hash;
+  constructor(Sha256 input) {
+    this.hash = input;
+  }
+  public function unlock(bytes message) {
+    require(sha256(message) == this.hash);
+  }
+}

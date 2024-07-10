@@ -1,0 +1,36 @@
+{
+    "version": 9,
+    "compilerVersion": "1.19.2+commit.c3a20a0",
+    "contract": "Demo",
+    "md5": "9db496b73b43f7ba54d3af67e2e62308",
+    "structs": [],
+    "library": [],
+    "alias": [],
+    "abi": [
+        {
+            "type": "function",
+            "name": "unlock",
+            "index": 0,
+            "params": [
+                {
+                    "name": "message",
+                    "type": "bytes"
+                }
+            ]
+        },
+        {
+            "type": "constructor",
+            "params": [
+                {
+                    "name": "input",
+                    "type": "Sha256"
+                }
+            ]
+        }
+    ],
+    "stateProps": [],
+    "buildType": "debug",
+    "file": "file:///C:/Users/KIIT/OneDrive/Desktop/timechain/smart-contract-demo/artifacts/demo.scrypt",
+    "hex": "00<input>610079527a75517a75615179a85179877777",
+    "sourceMapFile": ""
+}
